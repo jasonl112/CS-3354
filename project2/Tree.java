@@ -15,4 +15,6 @@ public interface Tree<E> extends Iterable<E>{
     public int getSize();
     
     public boolean isEmpty();
+    
+    //Christian Mirmohammadi was here :)
 }

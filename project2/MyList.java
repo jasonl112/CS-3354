@@ -41,4 +41,6 @@ public interface MyList<E> extends java.lang.Iterable<E> {
 
 	/** Return the number of elements in this list */
 	public int size();
+
+	//Julian was here
 }

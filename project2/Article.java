@@ -12,4 +12,5 @@ class Article {
     public String toString() {
         return String.format("\t %d | %s |%s-->\n",id,title,author);
     }
+    // diana martinez CS 3354 ! 
 }

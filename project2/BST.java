@@ -66,6 +66,7 @@ public class BST <E extends Comparable<E>> extends AbstractTree<E>{
         size++;
         return true;
         
+        
    }
    
    protected TreeNode<E> createNewNode(E e){
@@ -261,6 +262,6 @@ protected void print(TreeNode<E> root){
    
    public void clear(){
        root = null;
-       size = 0;
+       size = 0;                    //Sanjush Lingamaneni CS 3354 
    }
 }
